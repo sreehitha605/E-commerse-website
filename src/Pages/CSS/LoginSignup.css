@@ -1,0 +1,121 @@
+.loginsignup {
+    width: 100%;
+    height: 120vh;
+    background: #fce3fe;
+    padding-top: 80px;
+}
+
+.loginsignup-container {
+    width: 500px;
+    background: white;
+    margin: auto;
+    padding: 30px 50px;
+    border-radius: 10px; /* Optional for rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional for subtle shadow */
+}
+
+.loginsignup-container h1 {
+    margin: 20px 0px;
+    font-size: 24px;
+    color: #333;
+}
+
+.loginsignup-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Reduce the gap between input fields */
+    margin-top: 20px;
+}
+
+.loginsignup-fields input {
+    height: 40px; /* Adjusted height */
+    width: 100%;
+    padding: 0 40px; /* Adjusted padding */
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 16px; /* Adjusted font size */
+}
+
+.loginsignup-container button {
+    width: 100%;
+    height: 44px; /* Adjusted height */
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    margin-bottom: 5px; /* Add gap below the button */
+    border: none;
+    font-size: 18px; /* Adjusted font size */
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.loginsignup-container button:hover {
+    background: #f83f3f;
+}
+
+.loginsignup-login {
+    color: #5c5c5c;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center; /* Center align the text */
+}
+
+.loginsignup-login span {
+    color: red; /* Changed to red */
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.loginsignup-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px; /* Adjust gap between checkbox and text */
+    color: #5c5c5c;
+    font-size: 14px; /* Adjusted font size */
+    font-weight: 500;
+}
+
+.input-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-icon input {
+    height: 40px; /* Match input field height */
+    width: 100%;
+    padding-left: 35px; /* Adjust padding for icons */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px; /* Adjusted font size */
+}
+
+.input-icon i {
+    position: absolute;
+    left: 10px; /* Adjusted icon position */
+    color: #aaa;
+    font-size: 16px;
+}
+
+.input-icon input:focus {
+    border-color: #ff4141;
+    outline: none;
+}
+
+.loginsignup-switch {
+    
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.loginsignup-switch span {
+    color: red; /* Make the link red */
+    font-weight: 600;
+    cursor: pointer;
+}

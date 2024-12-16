@@ -1,0 +1,34 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 90vh;
+    
+}
+.popular h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight:600;
+}
+.popular hr{
+    width: 100px;
+    height: 4px;
+    border-radius: 20px;
+    background: #252525;
+}
+.popular-item {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-width: 80%;
+    padding: 0 25px;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.popular-item > * {
+    flex: 1 1 calc(25% - 20px); /* 4 items in a row with gap considered */
+    box-sizing: border-box; /* Ensures padding doesn't add to item width */
+}
+
+
