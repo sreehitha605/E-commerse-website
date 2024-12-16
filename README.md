@@ -33,6 +33,11 @@ An e-commerce website built using React that provides users with an intuitive an
 
 
 ###  Start the development server:
- 
+  ```bash
    npm start
+   ```
+
+### Deployment Link
+
+  https://iridescent-arithmetic-d058d0.netlify.app/
 
