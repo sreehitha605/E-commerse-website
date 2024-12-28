@@ -3,11 +3,10 @@
 An e-commerce website built using React that provides users with an intuitive and seamless shopping experience. The application includes features such as browsing trending products, viewing category-specific pages, detailed product information, a shopping cart, and user authentication.
 
 
+## Live Demo
 
-### Deployment Link
+[Click here to view the live application](https://iridescent-arithmetic-d058d0.netlify.app)
 
-  https://iridescent-arithmetic-d058d0.netlify.app/
-  
 
 
 ## Features
